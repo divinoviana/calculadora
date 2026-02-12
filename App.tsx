@@ -33,10 +33,10 @@ const App: React.FC = () => {
       <main className="container mx-auto p-4 md:p-8 max-w-5xl">
         <header className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900">
-            Simulador de Juros Compostos
+            Simulador de Juros do Divino
           </h1>
           <p className="text-slate-600 mt-2">
-            Planeje seu futuro financeiro e veja o poder dos juros sobre juros.
+            Planeje seu futuro financeiro e veja o poder dos juros sobre juros com a benção da matemática.
           </p>
         </header>
 
@@ -51,7 +51,7 @@ const App: React.FC = () => {
         <InfoSection />
 
         <footer className="text-center mt-12 py-4 border-t border-slate-200">
-            <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} Simulador de Juros Compostos. Todos os direitos reservados.</p>
+            <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} Simulador de Juros do Divino. Todos os direitos reservados.</p>
         </footer>
       </main>
     </div>

@@ -1,10 +1,11 @@
+
 import React from 'react';
 
 export const InfoSection: React.FC = () => {
     return (
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-md mt-10 space-y-8 text-slate-700 leading-relaxed">
             <article className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#2C3FA5] border-b-2 border-indigo-200 pb-2">Guia do Simulador de Juros Compostos</h2>
+                <h2 className="text-2xl font-bold text-[#2C3FA5] border-b-2 border-indigo-200 pb-2">Guia do Simulador de Juros do Divino</h2>
                 <p>Nossa ferramenta foi projetada para ser intuitiva e poderosa, permitindo que você visualize o potencial de crescimento dos seus investimentos de forma clara e objetiva. Siga os passos abaixo para começar:</p>
                 <ul className="list-decimal list-inside space-y-2 pl-4">
                     <li><strong>Valor Inicial:</strong> Insira o montante que você já possui para começar a investir. Se estiver começando do zero, pode deixar em branco ou inserir 0.</li>

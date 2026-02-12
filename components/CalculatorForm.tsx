@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import type { FormData } from '../types';
 
@@ -73,7 +74,7 @@ export const CalculatorForm: React.FC<CalculatorFormProps> = ({ onCalculate, onC
 
   return (
     <div className="bg-white p-6 md:p-8 rounded-lg shadow-md mb-10">
-      <h2 className="text-2xl font-bold text-[#2C3FA5] mb-6">Simulador de Juros Compostos</h2>
+      <h2 className="text-2xl font-bold text-[#2C3FA5] mb-6">Simulador de Juros do Divino</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <CurrencyInput 
